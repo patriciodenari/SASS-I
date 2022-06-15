@@ -1,0 +1,21 @@
+.calendario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    background-color: bisque;
+    border: $borde;
+    border-top: none;
+
+    h2 {
+        color: rgb(53, 203, 90);
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    p {
+        font-size: 15px;
+        color: darkmagenta;
+    }
+}

@@ -1,0 +1,21 @@
+.datos {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    border: $borde;
+    border-top: none;
+    
+    h2{
+        font-size: 40px;
+        color: deeppink;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    p {
+        color: crimson;
+        font-weight: bold
+    }
+}

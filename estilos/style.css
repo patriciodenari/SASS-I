@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.titulo h1 {
+  font-size: 40px;
+  color: white;
+}
+
+header {
+  background-color: lightgreen;
+  font-size: 50px;
+  border: 2px solid black;
+}
+header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style-type: none;
+  font-weight: 300;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(42, 125, 153);
+}
+header nav ul li a:hover {
+  background-color: whitesmoke;
+  transition: 0.5s;
+}
+
+.datos {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  border: 2px solid black;
+  border-top: none;
+}
+.datos h2 {
+  font-size: 40px;
+  color: deeppink;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.datos p {
+  color: crimson;
+  font-weight: bold;
+}
+
+.calendario {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  background-color: bisque;
+  border: 2px solid black;
+  border-top: none;
+}
+.calendario h2 {
+  color: rgb(53, 203, 90);
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.calendario p {
+  font-size: 15px;
+  color: darkmagenta;
+}/*# sourceMappingURL=style.css.map */
